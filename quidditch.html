@@ -1,0 +1,34 @@
+<meta charset="UTF-8" />
+
+<h3>Calcular los puntos de Griffindor en Quidditch</h3>
+
+<script>
+  function saltarLinea() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function imprimir(frase) {
+    document.write(frase);
+    saltarLinea();
+  }
+
+  let victorias = parseInt(prompt("Escribe la cantidad de veces que Harry atrapó la snitch dorada 🏆"));
+  let empates = parseInt(prompt("Escribe la cantidad de empates 💢"));
+
+  let puntosTotal = (victorias * 30) + empates;
+  imprimir("El total de puntos de Griffindor es: " + puntosTotal + "✨");
+
+  if (puntosTotal > 30) {
+    imprimir("El equipo va mejor que el año pasado 🥳");
+  }
+
+  if (puntosTotal < 30) {
+    imprimir("El equipo va peor que el año pasado 🥲")
+  }
+
+  if (puntosTotal == 30) {
+    imprimir("El equipo esta igual que el año pasado 😌")
+  }
+
+</script>

@@ -1,3 +1,5 @@
 # alura-logica-programacion
 ALURA-ONE
-Curso: Conceptos primordiales. 
+-Primeros Pasos.
+-Conceptos primordiales. 
+-Practicando con juegos y animaciones.
